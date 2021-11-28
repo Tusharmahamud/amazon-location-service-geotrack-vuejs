@@ -376,13 +376,13 @@ export default {
         this.resetVariables();
         this.loadTable();
       } catch (error) {
-        console.error('checking error saving');
+        console.error(error);
         this.$q.notify({
           color: "negative",
           position: "top",
           timeout: 5000,
           icon: "warning",
-          message: "Error: " + 'checking error saving',
+          message: "Error: " + error,
         });
       }
       this.b_addrow = false;

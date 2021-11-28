@@ -382,7 +382,7 @@ export default {
           position: "top",
           timeout: 5000,
           icon: "warning",
-          message: "Error: " + error,
+          message: "Error: " + 'checking error saving',
         });
       }
       this.b_addrow = false;

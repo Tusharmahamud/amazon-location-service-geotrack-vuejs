@@ -376,7 +376,7 @@ export default {
         this.resetVariables();
         this.loadTable();
       } catch (error) {
-        console.error(error);
+        console.error('checking error saving');
         this.$q.notify({
           color: "negative",
           position: "top",
